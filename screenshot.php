@@ -1,7 +1,7 @@
 <?php
 
 $apiKey = "{Your_Api_key}"; 
-$site = "http://www.stackoverflow.com"; # take screen of this site
+$site = "http://www.stackoverflow.com"; # take screen shot of this site
 
 $url = "https://www.googleapis.com/pagespeedonline/v1/runPagespeed?url=http://www.stackoverflow.com/&key=".$apiKey."&screenshot=true";
 $sources = file_get_contents($url);
